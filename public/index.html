@@ -6,13 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn Tailwind</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,100;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    
 </head>
 <body>
-    <h1 class="text-4xl font-bold">Lets Play with Tailwind CSS</h1>
+    <h1 class="text-4xl font-bold text-center">Lets Play with Tailwind CSS</h1>
 
-    <section>
-        <h2>Spacing</h2>
+    <section class="mb-10 bg-gradient-to-tl from-indigo-300 to-amber-200">
+        <h2 class="text-center  text-2xl">Spacing</h2>
+
+        <div class="m-13 bg-amber-400">Margin</div>
+        <div class="pt-7 bg-amber-400">Padding</div>
+
+    </section>
+    <section class="mb-10 bg-violet-700 text-gray-50">
+        <h2 class="text-center text-3xl">Sizing</h2>
+        <div class="w-32 h-32 bg-green-700">Kotak 1</div>
+        <!-- <div class="max-w-xs min-h-screen">Kotak 2</div> -->
+    </section>
+
+    <section class="mb-96 font-roboto max-w-3xl mx-auto">
+        <h2 class="mb-2 text-4xl font-bold">Learn about Typography with Tailwind CSS</h2>
+        <div class="mb-4 text-sm text-gray-500">By Wildan Fauzi Rakhman, 5 Februari 2022</div>
+        <blockquote class="mb-4 italic font-thin">Lorem <a href="" class="underline text-blue-700 font-bold">iblockquotesum</a>, dolor sit amet consectetur adipisicing elit. Veritatis necessitatibus iusto delectus veniam, animi corporis. Inventore quibusdam aliquid amet excepturi consequatur maxime nam, ullam architecto perspiciatis? Est soluta molestiae et ipsum pariatur, praesentium esse fugit quae voluptates doloribus? Temporibus explicabo numquam exercitationem quas eos laboriosam quaerat ratione omnis est quod.</blockquote>
+        <p class="mb-4 font-black">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium sunt eos iste, nisi aspernatur adipisci necessitatibus tempora quod magnam odit!</p>
+        <p class="mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum totam architecto molestiae autem debitis itaque similique, quam dolorem ea asperiores quas ipsum dolores deserunt veniam nemo a commodi, minima beatae?</p>
     </section>
 </body>
 </html>
